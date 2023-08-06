@@ -1,17 +1,5 @@
 (function ($) {
-	const languageButton = document.getElementById('languageButton');
-const greeting = document.getElementById('greeting');
-
-languageButton.addEventListener('click', function() {
-  if (greeting.textContent === '¡Hola, mundo!') {
-    greeting.textContent = 'Hello, world!';
-    languageButton.textContent = 'Change to Spanish';
-  } else {
-    greeting.textContent = '¡Hola, mundo!';
-    languageButton.textContent = 'Change to English';
-  }
-});
-	"use strict";
+	
 
 	// Header Type = Fixed
   $(window).scroll(function() {
