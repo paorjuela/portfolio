@@ -43,6 +43,17 @@ body {
   padding: 50px;
 }
 
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+#content {
+  padding: 50px;
+}
+
 #languageButton {
   background-color: #3498db;
   color: white;
